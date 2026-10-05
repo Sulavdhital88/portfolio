@@ -1,0 +1,1362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Sulav Dhital — Graphic Designer, UI/UX &amp; Front-End Developer</title>
+  
+  <!-- SEO Metadata -->
+  <meta name="description" content="Personal portfolio of Sulav Dhital, BSc IT student at LBEF College, Nepal. Showcasing advanced Adobe Photoshop graphic design, modern UI/UX design, and front-end web development projects.">
+  <meta name="keywords" content="Sulav Dhital, Graphic Designer, UI/UX Designer, Front-End Developer, Photoshop Expert, Nepal, LBEF College, Esports Poster, Web Design">
+  <meta name="author" content="Sulav Dhital">
+
+  <!-- Open Graph / Social Sharing -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Sulav Dhital | Creative Portfolio">
+  <meta property="og:description" content="Graphic Designer, UI/UX Enthusiast, and Front-End Developer from Nepal.">
+  <meta property="og:image" content="images/profile/profile.jpg">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,600&family=Syne:wght@600;700;800&family=Playfair+Display:ital,wght@1,600;1,700&display=swap" rel="stylesheet">
+
+  <!-- Favicon placeholder (SVG data URI) -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='48' fill='%230b0d13' stroke='%2300f5a0' stroke-width='4'/><text x='50' y='64' font-size='42' font-family='sans-serif' font-weight='bold' fill='%2300f5a0' text-anchor='middle'>S</text></svg>">
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Ambient Glowing Background Spotlight -->
+  <div class="ambient-glow" aria-hidden="true"></div>
+
+  <!-- ========================================================= -->
+  <!-- NAVIGATION BAR                                            -->
+  <!-- ========================================================= -->
+  <header class="site-header" id="header">
+    <nav class="nav-container">
+      <a href="#home" class="nav-brand">
+        <span class="brand-text">SULAV</span>
+        <span class="brand-dot"></span>
+      </a>
+
+      <!-- Desktop Navigation Menu -->
+      <ul class="nav-menu" id="navMenu">
+        <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+        <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+        <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+        <li class="nav-item"><a href="#graphic-design" class="nav-link">Graphic Design</a></li>
+        <li class="nav-item"><a href="#uiux" class="nav-link">UI/UX Design</a></li>
+        <li class="nav-item"><a href="#web-projects" class="nav-link">Web Projects</a></li>
+        <li class="nav-item"><a href="#services" class="nav-link">Interests</a></li>
+        <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+
+      <!-- Nav CTA & Mobile Hamburger -->
+      <div class="nav-actions">
+        <a href="resume/resume.pdf" target="_blank" download class="btn btn-outline btn-sm nav-resume-btn">
+          <span>Resume</span>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+        </a>
+        <button class="hamburger-btn" id="hamburgerBtn" aria-label="Toggle Navigation Menu" aria-expanded="false">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Mobile Drawer Menu Overlay -->
+  <div class="mobile-drawer" id="mobileDrawer" aria-hidden="true">
+    <ul class="mobile-nav-list">
+      <li><a href="#home" class="mobile-nav-link">Home</a></li>
+      <li><a href="#about" class="mobile-nav-link">About</a></li>
+      <li><a href="#skills" class="mobile-nav-link">Skills</a></li>
+      <li><a href="#graphic-design" class="mobile-nav-link">Graphic Design</a></li>
+      <li><a href="#uiux" class="mobile-nav-link">UI/UX Design</a></li>
+      <li><a href="#web-projects" class="mobile-nav-link">Web Projects</a></li>
+      <li><a href="#services" class="mobile-nav-link">Interests</a></li>
+      <li><a href="#resume" class="mobile-nav-link">Resume</a></li>
+      <li><a href="#contact" class="mobile-nav-link">Contact</a></li>
+    </ul>
+    <div class="mobile-drawer-footer">
+      <a href="resume/resume.pdf" download class="btn btn-primary btn-block">Download Full Resume</a>
+    </div>
+  </div>
+
+  <main>
+    <!-- ========================================================= -->
+    <!-- 2. HERO SECTION                                           -->
+    <!-- ========================================================= -->
+    <section class="hero-section section-padding" id="home">
+      <div class="container hero-container">
+        
+        <!-- Left: Text & Pitch -->
+        <div class="hero-content">
+          <div class="status-pill">
+            <span class="status-dot"></span>
+            <span class="status-text">Available for Internships &amp; Creative Work</span>
+          </div>
+
+          <p class="hero-greeting">Hi, I'm Sulav Dhital</p>
+          
+          <h1 class="hero-title">
+            <span class="title-primary">Graphic Designer</span> <br>
+            <span class="title-serif">&amp; UI/UX</span> <span class="title-accent">Developer</span>
+          </h1>
+
+          <p class="hero-bio">
+            I am a <strong>BSc IT student</strong> at LBEF College passionate about graphic design, UI/UX design, and front-end development. I specialize in high-impact visual design with <strong>Adobe Photoshop</strong> while developing modern, responsive web experiences.
+          </p>
+
+          <!-- Action Buttons -->
+          <div class="hero-cta-group">
+            <a href="#graphic-design" class="btn btn-primary">
+              <span>View My Work</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+            <a href="resume/resume.pdf" download class="btn btn-glass">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+              <span>Download Resume</span>
+            </a>
+          </div>
+
+          <!-- Socials & Quick Credentials -->
+          <div class="hero-social-row">
+            <span class="social-label">Connect with me:</span>
+            <div class="social-links">
+              <!-- LinkedIn -->
+              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="LinkedIn Profile">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.46 10.9v8.37H9.2V10.9H6.46M7.83 6.64c-.88 0-1.6.72-1.6 1.6 0 .89.72 1.6 1.6 1.6.89 0 1.6-.71 1.6-1.6 0-.88-.71-1.6-1.6-1.6Z"/></svg>
+              </a>
+              <!-- GitHub -->
+              <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="GitHub Profile">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.1-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33.85 0 1.71.11 2.5.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2Z"/></svg>
+              </a>
+              <!-- Email Direct -->
+              <a href="mailto:sulavdhital134@gmail.com" class="social-icon-btn" aria-label="Email Sulav">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              </a>
+            </div>
+            <div class="hero-location-badge">
+              <span>📍 Dang &amp; Kathmandu, Nepal</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: 3D Portrait & Floating Micro-Cards (Dribbble 3D Style) -->
+        <div class="hero-visual">
+          <div class="portrait-stage tilt-card" data-tilt-max="8">
+            
+            <!-- Glowing Radial Gradient Aura behind head/bust -->
+            <div class="aura-glow" aria-hidden="true"></div>
+
+            <!-- Authentic Studio Portrait of Sulav -->
+            <div class="portrait-wrapper">
+              <img src="images/profile/profile.jpg" alt="Sulav Dhital - Graphic Designer and Front-End Developer" class="portrait-img" loading="eager">
+              <div class="portrait-fade-mask" aria-hidden="true"></div>
+            </div>
+
+            <!-- Floating 3D Micro-Badges -->
+            <div class="float-chip chip-top-left">
+              <div class="chip-icon ps-icon">Ps</div>
+              <div class="chip-info">
+                <span class="chip-label">Adobe Photoshop</span>
+                <span class="chip-level">Advanced Master</span>
+              </div>
+            </div>
+
+            <div class="float-chip chip-right">
+              <div class="chip-icon ui-icon">🎨</div>
+              <div class="chip-info">
+                <span class="chip-label">UI/UX &amp; Web</span>
+                <span class="chip-level">Prototyping &amp; Wireframing</span>
+              </div>
+            </div>
+
+            <div class="float-chip chip-bottom-left">
+              <div class="chip-icon code-icon">&lt;/&gt;</div>
+              <div class="chip-info">
+                <span class="chip-label">Front-End Stack</span>
+                <span class="chip-level">HTML5 • CSS3 • JS</span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========================================================= -->
+    <!-- PROCESS STRIP (Inspired by Dribbble Reference)           -->
+    <!-- ========================================================= -->
+    <section class="process-strip">
+      <div class="container">
+        <div class="process-intro">
+          <p class="section-tag">/ Creative Methodology</p>
+          <h2 class="section-statement">
+            Blending visual impact, thoughtful interface design, and clean responsive code to craft digital experiences.
+          </h2>
+        </div>
+
+        <div class="process-grid">
+          <!-- Step 01 -->
+          <div class="process-card tilt-card">
+            <span class="process-number">01</span>
+            <h3 class="process-title">Discover &amp; Concept</h3>
+            <p class="process-desc">Understanding project objectives, moodboards, color harmony, typography hierarchy, and visual tone.</p>
+          </div>
+          <!-- Step 02 -->
+          <div class="process-card tilt-card">
+            <span class="process-number">02</span>
+            <h3 class="process-title">Design &amp; Compose</h3>
+            <p class="process-desc">Crafting high-resolution graphics in Photoshop, wireframing interfaces, and perfecting visual balance.</p>
+          </div>
+          <!-- Step 03 -->
+          <div class="process-card tilt-card">
+            <span class="process-number">03</span>
+            <h3 class="process-title">Develop &amp; Polish</h3>
+            <p class="process-desc">Translating visual designs into responsive, semantic HTML5/CSS3 layouts with interactive JavaScript effects.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================= -->
+    <!-- 3. ABOUT ME SECTION                                       -->
+    <!-- ========================================================= -->
+    <section class="about-section section-padding" id="about">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">/ Profile &amp; Background</span>
+          <h2 class="section-title">About Me</h2>
+          <div class="section-line"></div>
+        </div>
+
+        <div class="about-grid">
+          <!-- Biography Text Column -->
+          <div class="about-text-col">
+            <h3 class="about-subtitle">Student, Graphic Designer &amp; Aspiring Front-End Developer</h3>
+            <p class="about-para">
+              My name is <strong>Sulav Dhital</strong>, originally from Tulsipur, Dang, currently based in Kathmandu, Nepal. I am pursuing my <strong>Bachelor of Science (Hons) in Information Technology</strong> at <strong>Lord Buddha Education Foundation (LBEF College)</strong>.
+            </p>
+            <p class="about-para">
+              My creative journey started with graphic design, where I developed advanced-level proficiency in <strong>Adobe Photoshop</strong>. Over several years of hands-on practice, I have created numerous sports matchday posters, esports tournament rosters, branding banners, and commercial promotional designs.
+            </p>
+            <p class="about-para">
+              As an IT student, I am expanding my creative expertise into <strong>UI/UX Design</strong> and <strong>Front-End Web Development</strong>. I actively learn and apply HTML5, CSS3, JavaScript, as well as foundational programming in Java and Python. I love bridging the gap between artistic visual communication and interactive code.
+            </p>
+
+            <!-- Highlights Pill Grid -->
+            <div class="about-highlights-grid">
+              <div class="highlight-item">
+                <span class="highlight-icon">🎓</span>
+                <div>
+                  <strong>Degree:</strong>
+                  <p>BSc (Hons) IT (Ongoing)</p>
+                </div>
+              </div>
+              <div class="highlight-item">
+                <span class="highlight-icon">🏛️</span>
+                <div>
+                  <strong>College:</strong>
+                  <p>LBEF College, Kathmandu</p>
+                </div>
+              </div>
+              <div class="highlight-item">
+                <span class="highlight-icon">📍</span>
+                <div>
+                  <strong>Location:</strong>
+                  <p>Nepal (Dang / Kathmandu)</p>
+                </div>
+              </div>
+              <div class="highlight-item">
+                <span class="highlight-icon">🎯</span>
+                <div>
+                  <strong>Focus:</strong>
+                  <p>Graphics, UI/UX &amp; Web</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Education Timeline Card -->
+          <div class="about-card-col">
+            <div class="glass-card education-card">
+              <h3 class="card-heading">
+                <span class="heading-accent">📚</span> Academic Milestones
+              </h3>
+              
+              <div class="timeline">
+                <!-- Timeline 1 -->
+                <div class="timeline-item">
+                  <div class="timeline-dot"></div>
+                  <div class="timeline-content">
+                    <span class="timeline-date">March 2026 – Present</span>
+                    <h4 class="timeline-title">BSc (Hons) in Information Technology</h4>
+                    <p class="timeline-place">Lord Buddha Education Foundation (LBEF), Kathmandu</p>
+                    <p class="timeline-detail">Focusing on Programming Fundamentals, Web Development, Databases, and Computer Systems.</p>
+                  </div>
+                </div>
+
+                <!-- Timeline 2 -->
+                <div class="timeline-item">
+                  <div class="timeline-dot"></div>
+                  <div class="timeline-content">
+                    <span class="timeline-date">2022 – 2024</span>
+                    <h4 class="timeline-title">+2 Higher Secondary Education</h4>
+                    <p class="timeline-place">Gorkha International Secondary School</p>
+                    <p class="timeline-detail">Graduated with GPA 2.89.</p>
+                  </div>
+                </div>
+
+                <!-- Timeline 3 -->
+                <div class="timeline-item">
+                  <div class="timeline-dot"></div>
+                  <div class="timeline-content">
+                    <span class="timeline-date">Secondary Education</span>
+                    <h4 class="timeline-title">SEE (Secondary Education Examination)</h4>
+                    <p class="timeline-place">Deepshikha Secondary School</p>
+                    <p class="timeline-detail">Graduated with GPA 2.75.</p>
+                  </div>
+                </div>
+
+                <!-- Timeline 4: Certification -->
+                <div class="timeline-item">
+                  <div class="timeline-dot cert-dot"></div>
+                  <div class="timeline-content">
+                    <span class="timeline-date">Special Recognition</span>
+                    <h4 class="timeline-title">UI/UX Design Participation Certificate</h4>
+                    <p class="timeline-place">Recognized for interface design workshops &amp; design participation.</p>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================= -->
+    <!-- 4. SKILLS SECTION                                         -->
+    <!-- ========================================================= -->
+    <section class="skills-section section-padding" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">/ Technical &amp; Creative Proficiency</span>
+          <h2 class="section-title">Skills &amp; Capabilities</h2>
+          <div class="section-line"></div>
+          <p class="section-intro">
+            Organized honestly by practical experience and current learning path. No inflated percentage bars—just transparent proficiency levels.
+          </p>
+        </div>
+
+        <div class="skills-grid">
+          
+          <!-- Category 1: Graphic Design -->
+          <div class="skill-category-card glass-card tilt-card">
+            <div class="category-header">
+              <div class="category-icon ps-bg">🎨</div>
+              <h3 class="category-title">Graphic Design</h3>
+            </div>
+            <p class="category-subtitle">My core creative foundation with extensive hands-on poster composition and branding experience.</p>
+            <div class="skills-list">
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">Adobe Photoshop</span>
+                  <span class="skill-level-badge level-advanced">Advanced Level</span>
+                </div>
+                <p class="skill-note">Poster design, esports rosters, photo manipulation, lighting &amp; textures, typography.</p>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">Canva</span>
+                  <span class="skill-level-badge level-intermediate">Intermediate</span>
+                </div>
+                <p class="skill-note">Rapid social graphics, marketing announcements, presentation layouts.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Category 2: UI/UX Design -->
+          <div class="skill-category-card glass-card tilt-card">
+            <div class="category-header">
+              <div class="category-icon ui-bg">📐</div>
+              <h3 class="category-title">UI/UX &amp; Prototyping</h3>
+            </div>
+            <p class="category-subtitle">Translating visual aesthetics into intuitive, human-centered digital interfaces.</p>
+            <div class="skills-list">
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">UI/UX Design</span>
+                  <span class="skill-level-badge level-learning">Beginner / Practical</span>
+                </div>
+                <p class="skill-note">User flow mapping, grid systems, interface aesthetics, component hierarchy.</p>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">Responsive Web Design</span>
+                  <span class="skill-level-badge level-intermediate">Intermediate</span>
+                </div>
+                <p class="skill-note">Fluid layouts, mobile-first breakpoints, accessible touch controls.</p>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">Prototyping &amp; Typography</span>
+                  <span class="skill-level-badge level-learning">Learning</span>
+                </div>
+                <p class="skill-note">Visual rhythm, font pairings, interactive wireframing (Figma basics).</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Category 3: Web Development -->
+          <div class="skill-category-card glass-card tilt-card">
+            <div class="category-header">
+              <div class="category-icon web-bg">💻</div>
+              <h3 class="category-title">Web Development</h3>
+            </div>
+            <p class="category-subtitle">Building semantic, accessible, responsive websites with clean modern front-end code.</p>
+            <div class="skills-list">
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">HTML5</span>
+                  <span class="skill-level-badge level-intermediate">Intermediate</span>
+                </div>
+                <p class="skill-note">Semantic tags, SEO structuring, clean DOM tree, accessibility (ARIA).</p>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">CSS3</span>
+                  <span class="skill-level-badge level-intermediate">Intermediate</span>
+                </div>
+                <p class="skill-note">Flexbox, CSS Grid, custom properties, animations, glassmorphism.</p>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">JavaScript</span>
+                  <span class="skill-level-badge level-learning">Learning / Basic</span>
+                </div>
+                <p class="skill-note">DOM manipulation, event listeners, gallery filtering, lightbox modals.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Category 4: Programming & Database -->
+          <div class="skill-category-card glass-card tilt-card">
+            <div class="category-header">
+              <div class="category-icon code-bg">⚙️</div>
+              <h3 class="category-title">Programming &amp; Database</h3>
+            </div>
+            <p class="category-subtitle">Academic computer science foundations learned as part of my BSc IT coursework.</p>
+            <div class="skills-list">
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">Java</span>
+                  <span class="skill-level-badge level-foundational">Foundational</span>
+                </div>
+                <p class="skill-note">Object-Oriented Programming (OOP), classes, inheritance, control structures.</p>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">Python</span>
+                  <span class="skill-level-badge level-foundational">Foundational</span>
+                </div>
+                <p class="skill-note">Scripting fundamentals, data structures, automation basics.</p>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">MySQL</span>
+                  <span class="skill-level-badge level-foundational">Foundational</span>
+                </div>
+                <p class="skill-note">Relational database design, table schemas, SQL SELECT/INSERT queries.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================= -->
+    <!-- 5. GRAPHIC DESIGN PORTFOLIO                               -->
+    <!-- ========================================================= -->
+    <section class="gallery-section section-padding" id="graphic-design">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">/ Visual Creations</span>
+          <h2 class="section-title">Graphic Design Portfolio</h2>
+          <div class="section-line"></div>
+          <p class="section-intro">
+            A curated collection of my actual creative posters, esports announcements, sports matchday graphics, and brand designs crafted in Adobe Photoshop.
+          </p>
+        </div>
+
+        <!-- Category Filters -->
+        <div class="filter-controls" role="tablist" aria-label="Portfolio Category Filter">
+          <button class="filter-btn active" data-filter="all" role="tab" aria-selected="true">All Designs (12)</button>
+          <button class="filter-btn" data-filter="esports" role="tab" aria-selected="false">Esports &amp; Gaming</button>
+          <button class="filter-btn" data-filter="posters" role="tab" aria-selected="false">Creative Posters</button>
+          <button class="filter-btn" data-filter="branding" role="tab" aria-selected="false">Branding &amp; Merch</button>
+          <button class="filter-btn" data-filter="social" role="tab" aria-selected="false">Social &amp; Promo</button>
+        </div>
+
+        <!-- Design Gallery Grid -->
+        <div class="gallery-grid" id="galleryGrid">
+          
+          <!-- Card 1: Match Day Messi vs Switzerland -->
+          <article class="gallery-card tilt-card" data-category="posters esports" data-index="0">
+            <div class="card-media">
+              <img src="images/graphic-design/matchday-messi.jpg" alt="World Cup 2026 Match Day: Switzerland vs Argentina" loading="lazy">
+              <div class="card-overlay">
+                <span class="view-pill">Click to Enlarge 🔍</span>
+              </div>
+            </div>
+            <div class="card-meta">
+              <span class="meta-tag">Posters / Sports</span>
+              <h3 class="card-title">World Cup Match Day: Xhaka vs Messi</h3>
+              <p class="card-tools"><strong>Tool:</strong> Adobe Photoshop</p>
+              <p class="card-desc">High-energy matchday quarter-finals concept featuring dynamic player cutouts, stadium lighting, and match fixture details.</p>
+            </div>
+          </article>
+
+          <!-- Card 2: Deadly Duo Esports Poster -->
+          <article class="gallery-card tilt-card" data-category="esports" data-index="1">
+            <div class="card-media">
+              <img src="images/graphic-design/esports-deadly-duo.jpg" alt="Deadly Duo Esports Poster Design" loading="lazy">
+              <div class="card-overlay">
+                <span class="view-pill">Click to Enlarge 🔍</span>
+              </div>
+            </div>
+            <div class="card-meta">
+              <span class="meta-tag">Esports &amp; Gaming</span>
+              <h3 class="card-title">Deadly Duo Esports Poster</h3>
+              <p class="card-tools"><strong>Tool:</strong> Adobe Photoshop</p>
+              <p class="card-desc">Atmospheric team poster featuring duo players, glowing horns motif, bold distressed typography, and cinematic backlighting.</p>
+            </div>
+          </article>
+
+          <!-- Card 3: Air Jordan 4 Retro Military Black -->
+          <article class="gallery-card tilt-card" data-category="branding posters" data-index="2">
+            <div class="card-media">
+              <img src="images/graphic-design/nike-jordan4.jpg" alt="Nike Air Jordan 4 Retro Military Black Poster" loading="lazy">
+              <div class="card-overlay">
+                <span class="view-pill">Click to Enlarge 🔍</span>
+              </div>
+            </div>
+            <div class="card-meta">
+              <span class="meta-tag">Branding / Commercial</span>
+              <h3 class="card-title">Air Jordan 4 Retro Military Black</h3>
+              <p class="card-tools"><strong>Tool:</strong> Adobe Photoshop</p>
+              <p class="card-desc">Streetwear sneaker product showcase featuring torn paper composition, gritty textures, and bold typography hierarchy.</p>
+            </div>
+          </article>
+
+          <!-- Card 4: Lionel Messi King on Throne (GOAT) -->
+          <article class="gallery-card tilt-card" data-category="posters" data-index="3">
+            <div class="card-media">
+              <img src="images/graphic-design/poster-messi-goat.jpg" alt="Lionel Messi The Greatest of All Time King Poster" loading="lazy">
+              <div class="card-overlay">
+                <span class="view-pill">Click to Enlarge 🔍</span>
+              </div>
+            </div>
+            <div class="card-meta">
+              <span class="meta-tag">Creative Posters</span>
+              <h3 class="card-title">Lionel Messi — "The Greatest of All Time"</h3>
+              <p class="card-tools"><strong>Tool:</strong> Adobe Photoshop</p>
+              <p class="card-desc">Royal throne composition honoring Messi, crowned with a golden crown, stadium backdrop, lions, and dramatic contrast lighting.</p>
+            </div>
+          </article>
+
+          <!-- Card 5: RAW Esport Official PUBGM Roster -->
+          <article class="gallery-card tilt-card" data-category="esports" data-index="4">
+            <div class="card-media">
+              <img src="images/graphic-design/esports-raw-roster.jpg" alt="RAW Esport Official PUBGM Roster Announcement" loading="lazy">
+              <div class="card-overlay">
+                <span class="view-pill">Click to Enlarge 🔍</span>
+              </div>
+            </div>
+            <div class="card-meta">
+              <span class="meta-tag">Esports &amp; Gaming</span>
+              <h3 class="card-title">RAW Esport Official PUBGM Roster</h3>
+              <p class="card-tools"><strong>Tool:</strong> Adobe Photoshop</p>
+              <p class="card-desc">Official player line-up poster with urban skyline background, spartan crest branding, and unified player styling.</p>
+            </div>
+          </article>
+
+          <!-- Card 6: YOLO Esports 3D Jersey Mockup -->
+          <article class="gallery-card tilt-card" data-category="branding" data-index="5">
+            <div class="card-media">
+              <img src="images/graphic-design/jersey-yolo-mockup.jpg" alt="YOLO Esports Jersey Design Mockup" loading="lazy">
+              <div class="card-overlay">
+                <span class="view-pill">Click to Enlarge 🔍</span>
+              </div>
+            </div>
+            <div class="card-meta">
+              <span class="meta-tag">Branding &amp; Merch</span>
+              <h3 class="card-title">YOLO Esports 3D Jersey Design</h3>
+              <p class="card-tools"><strong>Tool:</strong> Adobe Photoshop</p>
+              <p class="card-desc">Custom esports team jersey featuring high-contrast geometric lightning patterns in black, yellow, and metallic silver.</p>
+            </div>
+          </article>
+
+          <!-- Card 7: Match Day Haaland vs Kane -->
+          <article class="gallery-card tilt-card" data-category="posters" data-index="6">
+            <div class="card-media">
+              <img src="images/graphic-design/matchday-haaland-kane.jpg" alt="World Cup Match Day: Norway vs England" loading="lazy">
+              <div class="card-overlay">
+                <span class="view-pill">Click to Enlarge 🔍</span>
+              </div>
+            </div>
+            <div class="card-meta">
+              <span class="meta-tag">Posters / Sports</span>
+              <h3 class="card-title">Match Day: Haaland vs Kane</h3>
+              <p class="card-tools"><strong>Tool:</strong> Adobe Photoshop</p>
+              <p class="card-desc">Head-to-head clash poster featuring Norway and England stars facing the FIFA World Cup trophy with national flag split themes.</p>
+            </div>
+          </article>
+
+          <!-- Card 8: Wave Esports Champions Poster -->
+          <article class="gallery-card tilt-card" data-category="esports" data-index="7">
+            <div class="card-media">
+              <img src="images/graphic-design/esports-wave-champions.jpg" alt="Wave Esports Roxx 10k Clash Champions" loading="lazy">
+              <div class="card-overlay">
+                <span class="view-pill">Click to Enlarge 🔍</span>
+              </div>
+            </div>
+            <div class="card-meta">
+              <span class="meta-tag">Esports &amp; Gaming</span>
+              <h3 class="card-title">Wave Esports Champions Announcement</h3>
+              <p class="card-tools"><strong>Tool:</strong> Adobe Photoshop</p>
+              <p class="card-desc">Tournament winner celebration banner with eerie red atmospheric background, lightning logo overlay, and match stats tally.</p>
+            </div>
+          </article>
+
+          <!-- Card 9: Nike Air x Nigel Sylvester 1 Low OG -->
+          <article class="gallery-card tilt-card" data-category="branding posters" data-index="8">
+            <div class="card-media">
+              <img src="images/graphic-design/nike-nigel-sylvester.jpg" alt="Nike Air x Nigel Sylvester Sneaker Showcase" loading="lazy">
+              <div class="card-overlay">
+                <span class="view-pill">Click to Enlarge 🔍</span>
+              </div>
+            </div>
+            <div class="card-meta">
+              <span class="meta-tag">Branding / Commercial</span>
+              <h3 class="card-title">Nike Air x Nigel Sylvester 1 Low OG</h3>
+              <p class="card-tools"><strong>Tool:</strong> Adobe Photoshop</p>
+              <p class="card-desc">Editorial sneaker advertisement with bold vertical branding, editorial product specifications, and elegant framing.</p>
+            </div>
+          </article>
+
+          <!-- Card 10: Delicious Pizza Social Media Promo -->
+          <article class="gallery-card tilt-card" data-category="social" data-index="9">
+            <div class="card-media">
+              <img src="images/graphic-design/social-pizza-promo.jpg" alt="Delicious Pizza 30% Off Social Media Poster" loading="lazy">
+              <div class="card-overlay">
+                <span class="view-pill">Click to Enlarge 🔍</span>
+              </div>
+            </div>
+            <div class="card-meta">
+              <span class="meta-tag">Social &amp; Promo</span>
+              <h3 class="card-title">Delicious Pizza 30% Off Promo</h3>
+              <p class="card-tools"><strong>Tool:</strong> Adobe Photoshop</p>
+              <p class="card-desc">Commercial promotional poster featuring floating basil leaves and peppers, vibrant food lighting, and gold discount typography.</p>
+            </div>
+          </article>
+
+          <!-- Card 11: Top Five IGLs of Nepal PUBG Mobile -->
+          <article class="gallery-card tilt-card" data-category="esports" data-index="10">
+            <div class="card-media">
+              <img src="images/graphic-design/esports-top-igls.jpg" alt="Top Five In-Game Leaders of Nepal PUBG Mobile" loading="lazy">
+              <div class="card-overlay">
+                <span class="view-pill">Click to Enlarge 🔍</span>
+              </div>
+            </div>
+            <div class="card-meta">
+              <span class="meta-tag">Esports &amp; Gaming</span>
+              <h3 class="card-title">Top 5 IGLs of Nepal — PUBG Mobile</h3>
+              <p class="card-tools"><strong>Tool:</strong> Adobe Photoshop</p>
+              <p class="card-desc">Community spotlight featuring Nepal's leading in-game leaders, moody storm sky, and high-contrast jersey lighting.</p>
+            </div>
+          </article>
+
+          <!-- Card 12: Mahima Education IELTS Admission Poster -->
+          <article class="gallery-card tilt-card" data-category="social" data-index="11">
+            <div class="card-media">
+              <img src="images/graphic-design/social-ielts-admission.jpg" alt="Mahima Education IELTS Admission Poster" loading="lazy">
+              <div class="card-overlay">
+                <span class="view-pill">Click to Enlarge 🔍</span>
+              </div>
+            </div>
+            <div class="card-meta">
+              <span class="meta-tag">Social &amp; Promo</span>
+              <h3 class="card-title">IELTS Admission Campaign Banner</h3>
+              <p class="card-tools"><strong>Tool:</strong> Adobe Photoshop</p>
+              <p class="card-desc">Informational social banner for educational institute in Dang, featuring clean callout badges and clear contact channels.</p>
+            </div>
+          </article>
+
+        </div>
+
+        <!-- Quick Help Note on Updating -->
+        <div class="gallery-guide-callout glass-card">
+          <div class="guide-callout-icon">💡</div>
+          <div class="guide-callout-content">
+            <h4>Want to add more of your Photoshop artworks?</h4>
+            <p>Save your exported JPGs into <code>images/graphic-design/</code> and add a simple <code>&lt;article&gt;</code> card inside <code>index.html</code>. Check the step-by-step instructions in the <a href="#guide-section">Guide Section below</a>.</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========================================================= -->
+    <!-- 7. UI/UX DESIGN SECTION                                   -->
+    <!-- ========================================================= -->
+    <section class="uiux-section section-padding" id="uiux">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">/ Interface Explorations</span>
+          <h2 class="section-title">UI/UX Design Concepts</h2>
+          <div class="section-line"></div>
+          <p class="section-intro">
+            Exploratory user interface concepts focused on visual hierarchy, accessibility, dark mode aesthetics, and engaging user flows.
+          </p>
+        </div>
+
+        <div class="uiux-grid">
+          
+          <!-- UI Project 1: FinPulse Dashboard -->
+          <div class="uiux-card glass-card tilt-card">
+            <div class="uiux-preview">
+              <img src="images/uiux/ui-dashboard.svg" alt="FinPulse SaaS Analytics Dashboard UI" loading="lazy">
+              <span class="uiux-badge">Web Application</span>
+            </div>
+            <div class="uiux-content">
+              <div class="uiux-tags">
+                <span class="tag">UI/UX Design</span>
+                <span class="tag">Figma</span>
+                <span class="tag">Dark Mode</span>
+              </div>
+              <h3 class="uiux-title">FinPulse — SaaS Analytics &amp; Revenue Hub</h3>
+              <p class="uiux-desc">
+                A dark-themed analytics web dashboard designed with neon KPI highlights, interactive revenue curves, segmented traffic charts, and intuitive navigation.
+              </p>
+              <div class="uiux-footer">
+                <span class="uiux-status">Student Design Concept</span>
+                <a href="images/uiux/ui-dashboard.svg" target="_blank" class="btn-text">View Full Mockup →</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- UI Project 2: Esports Mobile App -->
+          <div class="uiux-card glass-card tilt-card">
+            <div class="uiux-preview">
+              <img src="images/uiux/ui-mobile-app.svg" alt="ApexPlay Gaming & Esports Mobile App UI" loading="lazy">
+              <span class="uiux-badge">Mobile App</span>
+            </div>
+            <div class="uiux-content">
+              <div class="uiux-tags">
+                <span class="tag">Mobile UI</span>
+                <span class="tag">Esports</span>
+                <span class="tag">Figma Concept</span>
+              </div>
+              <h3 class="uiux-title">ApexPlay — Esports Stream &amp; Tournament App</h3>
+              <p class="uiux-desc">
+                Mobile application interface tailored for competitive PUBG mobile tournament viewers, featuring live watch parties, real-time chat, and player stat tracking.
+              </p>
+              <div class="uiux-footer">
+                <span class="uiux-status">Student Design Concept</span>
+                <a href="images/uiux/ui-mobile-app.svg" target="_blank" class="btn-text">View Full Mockup →</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- UI Project 3: KicksLab Sneaker Store -->
+          <div class="uiux-card glass-card tilt-card">
+            <div class="uiux-preview">
+              <img src="images/uiux/ui-ecommerce.svg" alt="KicksLab Streetwear & Sneaker E-Commerce UI" loading="lazy">
+              <span class="uiux-badge">E-Commerce UI</span>
+            </div>
+            <div class="uiux-content">
+              <div class="uiux-tags">
+                <span class="tag">E-Commerce</span>
+                <span class="tag">Minimalist UI</span>
+                <span class="tag">Visual Hierarchy</span>
+              </div>
+              <h3 class="uiux-title">KicksLab — Sneakerhead Storefront</h3>
+              <p class="uiux-desc">
+                Product detail showcase featuring ambient glow effects, size pill selectors, dynamic colorway toggles, and seamless cart checkout architecture.
+              </p>
+              <div class="uiux-footer">
+                <span class="uiux-status">Student Design Concept</span>
+                <a href="images/uiux/ui-ecommerce.svg" target="_blank" class="btn-text">View Full Mockup →</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================= -->
+    <!-- 8. WEB DEVELOPMENT PROJECTS                               -->
+    <!-- ========================================================= -->
+    <section class="web-projects-section section-padding" id="web-projects">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">/ Code &amp; Build</span>
+          <h2 class="section-title">Web Development Projects</h2>
+          <div class="section-line"></div>
+          <p class="section-intro">
+            Interactive web projects built using semantic HTML5, modern CSS3, and vanilla JavaScript, along with academic programming coursework.
+          </p>
+        </div>
+
+        <div class="projects-grid">
+          
+          <!-- Web Project 1: Personal Portfolio -->
+          <div class="project-card glass-card tilt-card">
+            <div class="project-header">
+              <div class="project-type-icon">🌐</div>
+              <span class="project-status live-status">Live Project</span>
+            </div>
+            <h3 class="project-name">Modern 3D Personal Portfolio Website</h3>
+            <p class="project-desc">
+              This very portfolio website! Designed with an obsidian dark theme, ambient cyber-emerald aura, 3D interactive mouse parallax cards, full-screen lightbox gallery, and responsive layout.
+            </p>
+            <div class="tech-stack-pills">
+              <span>HTML5</span>
+              <span>CSS3</span>
+              <span>Vanilla JavaScript</span>
+              <span>Responsive Web</span>
+            </div>
+            <div class="project-actions">
+              <a href="#home" class="btn btn-sm btn-primary">Live Demo</a>
+              <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline">GitHub Code</a>
+            </div>
+          </div>
+
+          <!-- Web Project 2: Esports Hub Landing Page -->
+          <div class="project-card glass-card tilt-card">
+            <div class="project-header">
+              <div class="project-type-icon">🎮</div>
+              <span class="project-status dev-status">Academic Practice</span>
+            </div>
+            <h3 class="project-name">Esports Tournament Landing Page</h3>
+            <p class="project-desc">
+              A responsive landing page concept designed to showcase competitive gaming matches, team rosters, countdown timers, and registration forms for regional tournaments.
+            </p>
+            <div class="tech-stack-pills">
+              <span>HTML5</span>
+              <span>CSS3 Flexbox/Grid</span>
+              <span>JavaScript</span>
+            </div>
+            <div class="project-actions">
+              <a href="#graphic-design" class="btn btn-sm btn-primary">Preview Design</a>
+              <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline">GitHub Code</a>
+            </div>
+          </div>
+
+          <!-- Web Project 3: Student Management System -->
+          <div class="project-card glass-card tilt-card">
+            <div class="project-header">
+              <div class="project-type-icon">☕</div>
+              <span class="project-status academic-status">Coursework Project</span>
+            </div>
+            <h3 class="project-name">Student Information System</h3>
+            <p class="project-desc">
+              Developed as part of semester 1 coursework at LBEF College. Features student record registration, grade calculation, and database persistence using SQL queries.
+            </p>
+            <div class="tech-stack-pills">
+              <span>Java</span>
+              <span>OOP Fundamentals</span>
+              <span>MySQL Database</span>
+            </div>
+            <div class="project-actions">
+              <a href="#about" class="btn btn-sm btn-primary">Coursework Details</a>
+              <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline">GitHub Code</a>
+            </div>
+          </div>
+
+          <!-- Web Project 4: Python Utility & Scripts -->
+          <div class="project-card glass-card tilt-card">
+            <div class="project-header">
+              <div class="project-type-icon">🐍</div>
+              <span class="project-status dev-status">Learning Script</span>
+            </div>
+            <h3 class="project-name">Python File &amp; Image Automation</h3>
+            <p class="project-desc">
+              A collection of foundational Python scripts to batch-rename design assets, resize images, and organize project folders automatically through the command line.
+            </p>
+            <div class="tech-stack-pills">
+              <span>Python 3</span>
+              <span>OS / Pathlib</span>
+              <span>File Automation</span>
+            </div>
+            <div class="project-actions">
+              <a href="#skills" class="btn btn-sm btn-primary">Tech Skills</a>
+              <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline">GitHub Code</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================= -->
+    <!-- 9. SERVICES / AREAS OF INTEREST                           -->
+    <!-- ========================================================= -->
+    <section class="services-section section-padding" id="services">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">/ Developing Capabilities</span>
+          <h2 class="section-title">Areas of Interest</h2>
+          <div class="section-line"></div>
+          <p class="section-intro">
+            These represent my core creative passions and developing technical capabilities as an IT student and visual creator.
+          </p>
+        </div>
+
+        <div class="services-grid">
+          
+          <div class="service-card glass-card tilt-card">
+            <div class="service-icon">🎨</div>
+            <h3 class="service-title">Graphic Design &amp; Posters</h3>
+            <p class="service-desc">
+              Creating high-impact esports rosters, sports matchday graphics, event posters, and promotional social creatives with advanced Adobe Photoshop workflows.
+            </p>
+          </div>
+
+          <div class="service-card glass-card tilt-card">
+            <div class="service-icon">📱</div>
+            <h3 class="service-title">UI/UX &amp; Prototyping</h3>
+            <p class="service-desc">
+              Designing modern, intuitive web and mobile app interfaces with strong focus on visual hierarchy, accessibility, and user-centric wireframes.
+            </p>
+          </div>
+
+          <div class="service-card glass-card tilt-card">
+            <div class="service-icon">💻</div>
+            <h3 class="service-title">Front-End Web Development</h3>
+            <p class="service-desc">
+              Translating UI designs into semantic HTML5, CSS3, and JavaScript code that runs smoothly, loads quickly, and scales gracefully across all viewports.
+            </p>
+          </div>
+
+          <div class="service-card glass-card tilt-card">
+            <div class="service-icon">📐</div>
+            <h3 class="service-title">Responsive Web Design</h3>
+            <p class="service-desc">
+              Ensuring pixel-perfect adaptability from desktop ultra-wide monitors down to compact mobile screens with zero horizontal overflow.
+            </p>
+          </div>
+
+          <div class="service-card glass-card tilt-card">
+            <div class="service-icon">🏆</div>
+            <h3 class="service-title">Creative Visual Branding</h3>
+            <p class="service-desc">
+              Designing distinctive visual identities, esports team jerseys, typography layouts, and cohesive aesthetic themes for creators and brands.
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================= -->
+    <!-- 10. RESUME SECTION                                        -->
+    <!-- ========================================================= -->
+    <section class="resume-section section-padding" id="resume">
+      <div class="container">
+        <div class="resume-box glass-card">
+          <div class="resume-content">
+            <span class="section-tag">/ Curriculum Vitae</span>
+            <h2 class="resume-title">Looking for an enthusiastic intern?</h2>
+            <p class="resume-desc">
+              My verified resume includes my academic coursework at LBEF College, graphic design experience with Adobe Photoshop, technical competencies, and contact information.
+            </p>
+            <div class="resume-meta-list">
+              <span>✓ BSc (Hons) IT Student</span>
+              <span>✓ Advanced Photoshop Skills</span>
+              <span>✓ Frontend Fundamentals</span>
+              <span>✓ Available for Remote &amp; On-Site</span>
+            </div>
+          </div>
+          <div class="resume-action-box">
+            <a href="resume/resume.pdf" download="Sulav_Dhital_Resume.pdf" class="btn btn-primary btn-lg">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+              <span>Download Official Resume (PDF)</span>
+            </a>
+            <a href="resume/resume.pdf" target="_blank" class="btn btn-outline btn-lg">
+              <span>View in Browser</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================= -->
+    <!-- 6. BEGINNER-FRIENDLY GUIDE SECTION                        -->
+    <!-- ========================================================= -->
+    <section class="guide-section section-padding" id="guide-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">/ Documentation &amp; Instructions</span>
+          <h2 class="section-title">How to Add Your Own Works &amp; Update the Site</h2>
+          <div class="section-line"></div>
+          <p class="section-intro">
+            A beginner-friendly guide tailored specifically for you so you can easily add your future Photoshop exports, update project cards, and maintain your website with confidence.
+          </p>
+        </div>
+
+        <div class="guide-accordion">
+          
+          <!-- Guide 1 -->
+          <details class="guide-item glass-card" open>
+            <summary class="guide-summary">
+              <span class="guide-step-num">01</span>
+              <span class="guide-step-title">How to Export from Photoshop with Ideal Settings</span>
+            </summary>
+            <div class="guide-body">
+              <p>When you finish a poster in Adobe Photoshop, follow these export steps for optimal web speed and crisp quality:</p>
+              <ul>
+                <li>Go to <strong>File &gt; Export &gt; Export As...</strong> (or <em>Save for Web (Legacy)</em>).</li>
+                <li><strong>Format:</strong> Choose <strong>JPG</strong> (or <strong>PNG</strong> if you need transparent backgrounds).</li>
+                <li><strong>Quality:</strong> Set between <strong>80% and 85%</strong> (Quality 7–8). This provides crystal-clear visuals while keeping file size under <strong>300 KB</strong>.</li>
+                <li><strong>Color Space:</strong> Check <strong>"Convert to sRGB"</strong> so colors match accurately on all mobile screens and web browsers.</li>
+                <li><strong>Recommended Dimensions:</strong> Width around <strong>1200px to 1600px</strong> for posters.</li>
+              </ul>
+            </div>
+          </details>
+
+          <!-- Guide 2 -->
+          <details class="guide-item glass-card">
+            <summary class="guide-summary">
+              <span class="guide-step-num">02</span>
+              <span class="guide-step-title">Folder Placement &amp; Naming Conventions</span>
+            </summary>
+            <div class="guide-body">
+              <p>Always name your files using lowercase letters and hyphens (avoid spaces or special symbols like <code>#</code> or <code>@</code>):</p>
+              <pre><code>images/graphic-design/
+  ├── esports-nne-champions.jpg
+  ├── tournament-champions.jpg
+  └── client-social-banner.jpg</code></pre>
+              <p>Place your newly exported image directly inside the <code>images/graphic-design/</code> folder.</p>
+            </div>
+          </details>
+
+          <!-- Guide 3 -->
+          <details class="guide-item glass-card">
+            <summary class="guide-summary">
+              <span class="guide-step-num">03</span>
+              <span class="guide-step-title">Adding a New Project Card in HTML (Working Example)</span>
+            </summary>
+            <div class="guide-body">
+              <p>Open <code>index.html</code> in VS Code. Find the <code>&lt;div class="gallery-grid" id="galleryGrid"&gt;</code> section, and paste this card block:</p>
+              <pre><code>&lt;!-- Copy &amp; Paste this snippet inside gallery-grid --&gt;
+&lt;article class="gallery-card tilt-card" data-category="esports"&gt;
+  &lt;div class="card-media"&gt;
+    &lt;img src="images/graphic-design/esports-nne-champions.jpg" alt="PUBG Championship Roster" loading="lazy"&gt;
+    &lt;div class="card-overlay"&gt;
+      &lt;span class="view-pill"&gt;Click to Enlarge 🔍&lt;/span&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class="card-meta"&gt;
+    &lt;span class="meta-tag"&gt;Esports &amp; Gaming&lt;/span&gt;
+    &lt;h3 class="card-title"&gt;PUBG Championship Roster&lt;/h3&gt;
+    &lt;p class="card-tools"&gt;&lt;strong&gt;Tool:&lt;/strong&gt; Adobe Photoshop&lt;/p&gt;
+    &lt;p class="card-desc"&gt;Custom team roster poster with dramatic rim lighting and custom typography.&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/article&gt;</code></pre>
+              <p><em>Tip:</em> For <code>data-category</code>, use <code>esports</code>, <code>posters</code>, <code>branding</code>, or <code>social</code>. You can also use multiple separated by spaces (e.g. <code>data-category="posters esports"</code>)!</p>
+            </div>
+          </details>
+
+          <!-- Guide 4 -->
+          <details class="guide-item glass-card">
+            <summary class="guide-summary">
+              <span class="guide-step-num">04</span>
+              <span class="guide-step-title">How to Run &amp; Test Locally in VS Code</span>
+            </summary>
+            <div class="guide-body">
+              <ol>
+                <li>Open Visual Studio Code.</li>
+                <li>Go to <strong>File &gt; Open Folder...</strong> and select your <code>MyPortfolio</code> folder.</li>
+                <li>Install the <strong>"Live Server"</strong> extension (by Ritwick Dey) from the Extensions tab (Ctrl+Shift+X).</li>
+                <li>Right-click <code>index.html</code> and select <strong>"Open with Live Server"</strong>.</li>
+                <li>Your browser will launch at <code>http://127.0.0.1:5500</code> with live auto-reloading whenever you save changes!</li>
+              </ol>
+            </div>
+          </details>
+
+          <!-- Guide 5 -->
+          <details class="guide-item glass-card">
+            <summary class="guide-summary">
+              <span class="guide-step-num">05</span>
+              <span class="guide-step-title">How to Publish Online for Free (GitHub Pages &amp; Netlify)</span>
+            </summary>
+            <div class="guide-body">
+              <h4 style="color: #00F5A0; margin-bottom: 8px;">Option A: GitHub Pages (Recommended for developers)</h4>
+              <ol>
+                <li>Create a free account at <a href="https://github.com" target="_blank" rel="noopener">GitHub.com</a>.</li>
+                <li>Create a new public repository named <code>portfolio</code> (or <code>sulav-dhital.github.io</code>).</li>
+                <li>Upload all files from your <code>MyPortfolio</code> folder (make sure <code>index.html</code> is in the root).</li>
+                <li>Go to <strong>Settings &gt; Pages</strong>.</li>
+                <li>Under <strong>Branch</strong>, select <code>main</code> and folder <code>/ (root)</code>, then click <strong>Save</strong>.</li>
+                <li>Within 1 minute, your portfolio will be live at: <code>https://&lt;your-username&gt;.github.io/portfolio/</code>!</li>
+              </ol>
+
+              <h4 style="color: #00F5A0; margin-top: 16px; margin-bottom: 8px;">Option B: Netlify (Drag &amp; Drop in 30 seconds)</h4>
+              <ol>
+                <li>Sign up for free at <a href="https://www.netlify.com" target="_blank" rel="noopener">Netlify.com</a>.</li>
+                <li>Go to the <strong>Sites</strong> tab.</li>
+                <li>Simply drag and drop your whole <code>MyPortfolio</code> folder into the browser window.</li>
+                <li>Netlify will instantly give you a live free URL (e.g. <code>sulav-dhital.netlify.app</code>).</li>
+              </ol>
+            </div>
+          </details>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================= -->
+    <!-- 11. CONTACT SECTION                                       -->
+    <!-- ========================================================= -->
+    <section class="contact-section section-padding" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">/ Get In Touch</span>
+          <h2 class="section-title">Let's Connect &amp; Collaborate</h2>
+          <div class="section-line"></div>
+          <p class="section-intro">
+            Have an internship opening, a freelance poster commission, or a creative project in mind? Reach out to me directly!
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          
+          <!-- Contact Details Column -->
+          <div class="contact-info-col">
+            <div class="contact-info-card glass-card">
+              <h3 class="info-card-title">Contact Information</h3>
+              <p class="info-card-sub">Feel free to message me anytime. I respond promptly.</p>
+
+              <div class="info-channel-list">
+                <!-- Email -->
+                <div class="info-channel-item">
+                  <div class="channel-icon">✉️</div>
+                  <div>
+                    <span class="channel-title">Direct Email</span>
+                    <a href="mailto:sulavdhital134@gmail.com" class="channel-value">sulavdhital134@gmail.com</a>
+                  </div>
+                </div>
+
+                <!-- Phone / WhatsApp -->
+                <div class="info-channel-item">
+                  <div class="channel-icon">📞</div>
+                  <div>
+                    <span class="channel-title">Phone</span>
+                    <a href="tel:9700065754" class="channel-value">+977 9700065754</a>
+                  </div>
+                </div>
+
+                <!-- Location -->
+                <div class="info-channel-item">
+                  <div class="channel-icon">📍</div>
+                  <div>
+                    <span class="channel-title">Location</span>
+                    <span class="channel-value">Tulsipur Dang &amp; Kathmandu, Nepal</span>
+                  </div>
+                </div>
+
+                <!-- Availability -->
+                <div class="info-channel-item">
+                  <div class="channel-icon">⚡</div>
+                  <div>
+                    <span class="channel-title">Status</span>
+                    <span class="channel-value status-badge-inline">Open to Internships &amp; Roles</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Social Buttons -->
+              <div class="social-connect-block">
+                <span class="social-block-label">Follow &amp; Connect:</span>
+                <div class="social-btn-row">
+                  <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.46 10.9v8.37H9.2V10.9H6.46M7.83 6.64c-.88 0-1.6.72-1.6 1.6 0 .89.72 1.6 1.6 1.6.89 0 1.6-.71 1.6-1.6 0-.88-.71-1.6-1.6-1.6Z"/></svg>
+                    <span>LinkedIn</span>
+                  </a>
+                  <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.1-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33.85 0 1.71.11 2.5.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2Z"/></svg>
+                    <span>GitHub</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Contact Form Column -->
+          <div class="contact-form-col">
+            <div class="contact-form-card glass-card">
+              <h3 class="form-title">Send a Direct Message</h3>
+              
+              <!-- Formspree ready form: Replace ACTION url with your Formspree ID e.g. https://formspree.io/f/xyz -->
+              <form id="contactForm" class="contact-form" novalidate>
+                
+                <div class="form-group">
+                  <label for="userName" class="form-label">Your Name <span class="required">*</span></label>
+                  <input type="text" id="userName" name="name" class="form-input" placeholder="e.g. Alex Henderson" required>
+                  <span class="field-error" id="nameError"></span>
+                </div>
+
+                <div class="form-group">
+                  <label for="userEmail" class="form-label">Your Email <span class="required">*</span></label>
+                  <input type="email" id="userEmail" name="email" class="form-input" placeholder="e.g. alex@example.com" required>
+                  <span class="field-error" id="emailError"></span>
+                </div>
+
+                <div class="form-group">
+                  <label for="userSubject" class="form-label">Subject / Purpose</label>
+                  <input type="text" id="userSubject" name="subject" class="form-input" placeholder="e.g. Internship Inquiry / Poster Commission">
+                </div>
+
+                <div class="form-group">
+                  <label for="userMessage" class="form-label">Message <span class="required">*</span></label>
+                  <textarea id="userMessage" name="message" class="form-textarea" rows="4" placeholder="Hello Sulav, I would like to discuss..." required></textarea>
+                  <span class="field-error" id="messageError"></span>
+                </div>
+
+                <!-- Form status feedback message -->
+                <div class="form-status-alert" id="formStatusAlert" style="display: none;"></div>
+
+                <button type="submit" class="btn btn-primary btn-block" id="submitBtn">
+                  <span>Send Message</span>
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+                </button>
+
+                <p class="form-backend-note">
+                  <em>Note:</em> To receive submissions directly to your email inbox, paste your free endpoint ID from <a href="https://formspree.io" target="_blank" rel="noopener">Formspree.io</a> into the <code>contactForm</code> action attribute.
+                </p>
+              </form>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ========================================================= -->
+  <!-- 12. FOOTER                                                -->
+  <!-- ========================================================= -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="#home" class="footer-logo">
+            <span>SULAV</span><span class="brand-dot"></span>
+          </a>
+          <p class="footer-tagline">
+            BSc IT Student at LBEF College • Graphic Designer • Aspiring Front-End Developer.
+          </p>
+        </div>
+
+        <div class="footer-nav-col">
+          <h4 class="footer-nav-title">Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#graphic-design">Graphic Design</a></li>
+            <li><a href="#uiux">UI/UX Concepts</a></li>
+            <li><a href="#web-projects">Web Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-social-col">
+          <h4 class="footer-nav-title">Connect</h4>
+          <ul class="footer-links">
+            <li><a href="mailto:sulavdhital134@gmail.com">sulavdhital134@gmail.com</a></li>
+            <li><a href="https://linkedin.com" target="_blank" rel="noopener">LinkedIn Profile</a></li>
+            <li><a href="https://github.com" target="_blank" rel="noopener">GitHub Profile</a></li>
+            <li><a href="resume/resume.pdf" download>Download Resume (PDF)</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="copyright-text">
+          &copy; <span id="currentYear"></span> <strong>Sulav Dhital</strong>. All rights reserved. Crafted with clean HTML5, CSS3 &amp; JavaScript.
+        </p>
+        <a href="#home" class="back-to-top" id="backToTop" aria-label="Back to Top">
+          <span>Back to Top</span>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="18 15 12 9 6 15"/></svg>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ========================================================= -->
+  <!-- LIGHTBOX MODAL (Full-Screen Image Gallery Viewer)          -->
+  <!-- ========================================================= -->
+  <div class="lightbox-modal" id="lightboxModal" aria-hidden="true" role="dialog" aria-label="Image Preview Modal">
+    <div class="lightbox-backdrop" id="lightboxBackdrop"></div>
+    
+    <div class="lightbox-container">
+      <!-- Close Button -->
+      <button class="lightbox-close-btn" id="lightboxCloseBtn" aria-label="Close Lightbox">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+
+      <!-- Prev / Next Navigation Controls -->
+      <button class="lightbox-nav-btn prev-btn" id="lightboxPrevBtn" aria-label="Previous Image">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="15 18 9 12 15 6"/></svg>
+      </button>
+      <button class="lightbox-nav-btn next-btn" id="lightboxNextBtn" aria-label="Next Image">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
+      </button>
+
+      <!-- Image & Meta Display -->
+      <div class="lightbox-content">
+        <div class="lightbox-media-wrapper">
+          <img src="" alt="" id="lightboxImg" class="lightbox-image">
+        </div>
+        
+        <div class="lightbox-caption">
+          <div class="lightbox-header-row">
+            <span class="lightbox-category-badge" id="lightboxCategory">Category</span>
+            <span class="lightbox-counter" id="lightboxCounter">1 / 12</span>
+          </div>
+          <h3 class="lightbox-title" id="lightboxTitle">Project Title</h3>
+          <p class="lightbox-tools" id="lightboxTools">Tool: Adobe Photoshop</p>
+          <p class="lightbox-description" id="lightboxDesc">Detailed project description will display here.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Toast Notification Alert Container -->
+  <div class="toast-container" id="toastContainer" aria-live="polite"></div>
+
+  <!-- Main JavaScript File -->
+  <script src="script.js"></script>
+</body>
+</html>

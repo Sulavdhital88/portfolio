@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="appBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0e121e"/>
+      <stop offset="100%" stop-color="#182033"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF416C"/>
+      <stop offset="100%" stop-color="#FF4B2B"/>
+    </linearGradient>
+    <linearGradient id="limeApp" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00F5A0"/>
+      <stop offset="100%" stop-color="#00D084"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="500" rx="16" fill="url(#appBg)"/>
+  <rect width="800" height="500" rx="16" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="2"/>
+
+  <!-- Phone 1 (Stream Live) -->
+  <g transform="translate(160, 40)">
+    <rect width="220" height="420" rx="32" fill="#0c0f17" stroke="rgba(255,255,255,0.15)" stroke-width="3"/>
+    <rect x="75" y="8" width="70" height="14" rx="7" fill="#000"/>
+    <rect x="16" y="35" width="188" height="110" rx="14" fill="#1e2538"/>
+    <rect x="26" y="45" width="44" height="20" rx="4" fill="#FF416C"/>
+    <text x="48" y="59" fill="#fff" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="bold" text-anchor="middle">LIVE</text>
+    <circle cx="175" cy="55" r="12" fill="rgba(0,245,160,0.2)"/>
+    <text x="175" y="59" fill="#00F5A0" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" text-anchor="middle">★</text>
+    <text x="26" y="125" fill="#fff" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="bold">PUBG Grand Finals S6</text>
+    <rect x="16" y="160" width="188" height="45" rx="10" fill="#151a27"/>
+    <circle cx="35" cy="182" r="10" fill="#00F5A0"/>
+    <text x="55" y="179" fill="#fff" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="bold">Raskal_GFX</text>
+    <text x="55" y="194" fill="#8E9AA8" font-family="'Plus Jakarta Sans', sans-serif" font-size="9">Clutch play on Pochinki!</text>
+    <rect x="16" y="215" width="188" height="45" rx="10" fill="#151a27"/>
+    <circle cx="35" cy="237" r="10" fill="#FF4B2B"/>
+    <text x="55" y="234" fill="#fff" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="bold">WaveEsports</text>
+    <text x="55" y="249" fill="#8E9AA8" font-family="'Plus Jakarta Sans', sans-serif" font-size="9">WWCD incoming 🔥</text>
+    <rect x="16" y="355" width="188" height="40" rx="20" fill="url(#limeApp)"/>
+    <text x="110" y="380" fill="#0b0d13" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="bold" text-anchor="middle">Join Watch Party</text>
+  </g>
+
+  <!-- Phone 2 (Player Profile) -->
+  <g transform="translate(430, 40)">
+    <rect width="220" height="420" rx="32" fill="#0c0f17" stroke="rgba(255,255,255,0.15)" stroke-width="3"/>
+    <rect x="75" y="8" width="70" height="14" rx="7" fill="#000"/>
+    <circle cx="110" cy="75" r="28" fill="#1e2538" stroke="#00F5A0" stroke-width="2"/>
+    <text x="110" y="81" fill="#00F5A0" font-family="'Plus Jakarta Sans', sans-serif" font-size="16" font-weight="bold" text-anchor="middle">SD</text>
+    <text x="110" y="122" fill="#ffffff" font-family="'Plus Jakarta Sans', sans-serif" font-size="15" font-weight="bold" text-anchor="middle">Sulav Dhital</text>
+    <text x="110" y="138" fill="#8E9AA8" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" text-anchor="middle">Graphic &amp; UI Specialist</text>
+
+    <rect x="25" y="155" width="170" height="55" rx="12" fill="#181f2d"/>
+    <text x="55" y="178" fill="#00F5A0" font-family="'Plus Jakarta Sans', sans-serif" font-size="14" font-weight="bold" text-anchor="middle">98%</text>
+    <text x="55" y="195" fill="#8E9AA8" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" text-anchor="middle">Win Rate</text>
+    <text x="110" y="178" fill="#00C6FF" font-family="'Plus Jakarta Sans', sans-serif" font-size="14" font-weight="bold" text-anchor="middle">24</text>
+    <text x="110" y="195" fill="#8E9AA8" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" text-anchor="middle">Trophies</text>
+    <text x="165" y="178" fill="#FFBD2E" font-family="'Plus Jakarta Sans', sans-serif" font-size="14" font-weight="bold" text-anchor="middle">#1</text>
+    <text x="165" y="195" fill="#8E9AA8" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" text-anchor="middle">Rank</text>
+
+    <rect x="20" y="225" width="180" height="44" rx="10" fill="#151a27"/>
+    <text x="35" y="245" fill="#fff" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="bold">DoD Star S8</text>
+    <text x="35" y="259" fill="#00F5A0" font-family="'Plus Jakarta Sans', sans-serif" font-size="9">Victory · 18 Kills</text>
+
+    <rect x="20" y="278" width="180" height="44" rx="10" fill="#151a27"/>
+    <text x="35" y="298" fill="#fff" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="bold">Roxx 10k Clash</text>
+    <text x="35" y="312" fill="#00F5A0" font-family="'Plus Jakarta Sans', sans-serif" font-size="9">Champion · WWCD</text>
+
+    <rect x="20" y="335" width="180" height="44" rx="10" fill="#151a27"/>
+    <text x="35" y="355" fill="#fff" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="bold">NNE Glory S6</text>
+    <text x="35" y="369" fill="#00C6FF" font-family="'Plus Jakarta Sans', sans-serif" font-size="9">Rank 1 · 94 Kills</text>
+  </g>
+</svg>
